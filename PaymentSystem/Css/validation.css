@@ -1,0 +1,27 @@
+﻿input.ng-dirty.ng-valid, select.ng-dirty.ng-valid {
+    border: 1px solid Green;
+}
+
+input.ng-dirty.ng-invalid, select.ng-dirty.ng-invalid, input.ng-invalid.aa-invalid-attempt, select.ng-invalid.aa-invalid-attempt, input.ng-invalid.aa-had-focus, select.ng-invalid.aa-had-focus, input.explicit-add-error, select.explicit-add-error {
+    border: 1px solid Red;
+}
+
+div.validation-icons {
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+    div.validation-icons i.fa-check {
+        color: green;
+    }
+
+    div.validation-icons i.fa-exclamation-circle {
+        color: red;
+    }
+
+div.validation-error {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+}

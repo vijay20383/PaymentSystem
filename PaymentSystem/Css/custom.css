@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html {position: relative; min-height: 100%;}
+body{margin-bottom:78px; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; background-color:#e8eae9;}
+.innerBdy{background-color:#f0f0f0;}
+
+/* Login */
+.loginBg{ background-color:#044a93; text-align:center; margin-top:80px;}
+.loginBox{padding:50px 20px; background-color:#b1b1b1; margin-top:100px; box-shadow: 1px 1px 10px #002143;}
+.headTxt{font-size:20px; font-weight:bold; margin-bottom:30px;}
+.SignUpTxt { margin-top:20px;}
+.SignUpTxt a{font-size:14px; text-decoration:none; color:#3fae29;}
+.logLogo{ background-color:#055bb5; padding:20px; margin-right:-20px;  margin-left:-20px;  margin-top:-50px;}
+/*Header*/
+.navbar-default{ background-color:#055bb5 !important; color:#99bfdb !important;     padding-right: 15px; border:none !important; border-radius: 0px !important;}
+.naviBar .headHeight{height:80px ; padding-right: 0px;}
+.naviBar ul{ border:none !important;}
+.naviBar ul li a{padding:30px 15px !important; text-decoration:none !important; font-weight:normal !important; color:#99cae8 !important; font-weight:normal ; }
+.naviBar ul li.active a {background-color:#055bb5  !important; color:#FFF !important; font-weight:normal !important;}
+.naviBar ul li:hover {background-color:#055bb5  !important; color:#FFF !important; text-decoration:none !important; font-weight:normal !important;}
+.naviBar ul li:hover a { color:#FFF !important;}
+.dropdown ul.menuDrop{ padding:0px !important;}
+.dropdown ul.menuDrop li a {color:#747474 !important; padding:10px !important}
+.dropdown ul.menuDrop li a:hover {background-color:#419ad4 !important; color:#FFF !important;}
+.footer{padding:30px; background-color:#b1b1b1; font-size:13px;  color:#FFF; text-align:center;   position: absolute; bottom: 0; width: 100%;  height: 78px;}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color:#0b62bc ;}
+
+
+
+/*Bootstrap General*/
+.navbar-toggle {margin-top: 26px; margin-right: 10px; background-color:#419ad4 !important;}
+.navbar-default .navbar-toggle .icon-bar{ background-color:#FFF;}
+/*.navbar-right{margin-right:15px !important;}*/
+.form-control{border-radius:0px !important;}
+.mainContent{ margin-top:30px; margin-bottom:50px;}
+.mainContent .col-lg-4{text-align:center;}
+.boxPad{padding-top:15px; padding-bottom:15px;}
+.boxPad{text-decoration:none; color:#000;}
+.boxPad:hover{background-color:#E9F7FF; cursor:pointer;}
+.banner{ margin-top:80px;}
+.asterisk {color:red;}
+/*.btn-default { color: #419ad4;background-color:#419ad4 ;border-color: #3fae29;}
+.btn-default:hover { color: #FFF;background-color: #419ad4;}
+.btn-default:focus { color: #FFF;background-color: #419ad4;}*/
+
+	
+
